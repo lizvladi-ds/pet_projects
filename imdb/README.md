@@ -50,7 +50,7 @@ Moreover, we do our BFS-based search from both sides and check movies in batches
                               num_of_actors_limit=5,
                               num_of_movies_limit=5)
     ```
-    <img src="rdj_dj_dist.JPG" alt="drawing" width="700" height="100"/><br>
+    <img src="rdj_dj_dist.JPG" alt="drawing" width="650" height="150"/><br>
 
     So how this distance is calculated? Dwayne Johnson acted in 'Fast & Furious Presents: Hobbs & Shaw', where also acted Idris Elba. Idris Elba acted
     in 'Avengers: Infinity War', where also acted Robert Downey Jr. So the movie distance is 2 (we counted 2 movies in this sequence).
