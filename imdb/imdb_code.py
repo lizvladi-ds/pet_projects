@@ -168,7 +168,6 @@ async def get_movie_descriptions_by_actor_soup(actor_page_soup: BeautifulSoup,
     :param num_of_movies_limit: How many last movies to look through.
     :return: Movies descriptions.
     """
-    # your code here
     descriptions = []
     movies = await get_movies_by_actor_soup(actor_page_soup, num_of_movies_limit)
     for movie in movies:
