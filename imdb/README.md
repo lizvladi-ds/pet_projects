@@ -24,7 +24,7 @@ The basic rules are:
 
 The result can be seen on the picture below. For example, movie distance between Jackie Chan and Dwayne Johnson is 2. Interesting is that all the
 top 10 highly paid actors have movie distance not more than 2.
-<br> <img src="graph.JPG" alt="drawing" width="700" height="700"/> <br>
+<br> <img src="graph.JPG" alt="drawing" width="700" height="600"/> <br>
 
 ## Algorithm
 
