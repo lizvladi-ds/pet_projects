@@ -2,9 +2,28 @@
 
 Aim of this project is to test the skills in async programming and algorithms (in particular, the project demonstrates the usage of BFS).
 IMDB project idea is to take Top 10 highly paid actors of 2019(Forbes) and to create a movie distance graph for them. 
-The logic is the following: we start with some actors pair. Get top N last movies for one actor, get top M actors from those movies and check 
-if the second actor from the pair is in the obtained actors list. We also save movies checked and compare them. 
-Moreover, we do our BFS-based search from both sides and check movies in batches. 
+
+Actors are:
+1. Dwayne Johnson
+2. Chris Hemsworth
+3. Robert Downey Jr.
+4. Akshay Kumar
+5. Jackie Chan
+6. Bradley Cooper
+7. Adam Sandler
+8. Scarlett Johansson
+9. Sofia Vergara
+10. Chris Evans.
+
+
+The result can be seen on the picture below. For example, movie distance between Jackie Chan and Dwayne Johnson is 2. Interesting is that all the
+top 10 highly paid actors have movie distance not more than 2.
+<br> <img src="graph.JPG" alt="drawing" width="700" height="700"/> <br>
+
+## Idea description
+### Overall
+
+### Algorithm
 
 ## Usage example
 
