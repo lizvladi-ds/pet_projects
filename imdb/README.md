@@ -24,7 +24,7 @@ The basic rules are:
 
 The result can be seen on the picture below. For example, movie distance between Jackie Chan and Dwayne Johnson is 2. Interesting is that all the
 top 10 highly paid actors have movie distance not more than 2.
-<br> <img src="graph.JPG" alt="drawing" width="700" height="600"/> <br>
+<br> <img src="pics/graph.JPG" alt="drawing" width="700" height="600"/> <br>
 
 ## Algorithm
 
@@ -61,11 +61,11 @@ Time Complexity of BFS = O(V+E) where V is vertices and E is edges in the actors
     ```
     
     Below we can see the returned values by the code above:
-    <img src="dj_movies.JPG" alt="drawing" width="700" height="100"/> <br>
+    <img src="pics/dj_movies.JPG" alt="drawing" width="700" height="100"/> <br>
 
     Let's also check IMDB if we got the right list of movies.
     
-    <img src="dj_movies_imdb.JPG" alt="drawing" width="500" height="500"/><br>
+    <img src="pics/dj_movies_imdb.JPG" alt="drawing" width="500" height="500"/><br>
     
     Everything is fine, only released movies, no TV series or Video shorts.
     <br><br><br>
@@ -84,11 +84,11 @@ Time Complexity of BFS = O(V+E) where V is vertices and E is edges in the actors
     ```
     
     Below we can see the returned values by the code above:
-    <img src="ff_actors.JPG" alt="drawing" width="700" height="100"/><br>
+    <img src="pics/ff_actors.JPG" alt="drawing" width="700" height="100"/><br>
 
     Let's also check IMDB if we got right cast list.
     
-    <img src="ff_actors_imdb.JPG" alt="drawing" width="200" height="200"/><br>
+    <img src="pics/ff_actors_imdb.JPG" alt="drawing" width="200" height="200"/><br>
     
     Everything is fine.
     <br><br><br>
@@ -111,7 +111,7 @@ If we have a couple of actors IMDB urls, we can calculate movie distance for the
     ```
     
     Below we can see the returned values by the code above:
-    <img src="rdj_dj_dist.JPG" alt="drawing" width="650" height="150"/><br>
+    <img src="pics/rdj_dj_dist.JPG" alt="drawing" width="650" height="150"/><br>
 
     So how this distance is calculated? Dwayne Johnson acted in 'Fast & Furious Presents: Hobbs & Shaw', where also acted Idris Elba. Idris Elba acted
     in 'Avengers: Infinity War', where also acted Robert Downey Jr. So the movie distance is 2 (we counted 2 movies in this sequence).
