@@ -1,13 +1,6 @@
 # Articles summarizer
 
 ## Bot usage instructions <br>
-Steps that were done to create this container:
-- initialize conda.yml
-- initialize Dockerfile
-- initialize docker-compose.yml
-- build image by `docker-compose build`
-- authorize by `docker login`
-- push image to the docker hub by `docker-compose push`
 
 To start the bot one needs to apply the following commands in a comman line:
 - `docker pull lizvladi/telegram-bot`
