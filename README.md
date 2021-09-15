@@ -8,7 +8,7 @@ if the second actor from the pair is in the obtained actors list. We also save m
 Moreover, we do our BFS-based search from both sides and check movies in batches. 
 
 Movie distance graph example:
-<br> <img src="imdb/graph.JPG" alt="drawing" width="700" height="600"/> <br>
+<br> <img src="imdb/pics/graph.JPG" alt="drawing" width="700" height="600"/> <br>
 
 ## NYT telegram bot
 One can provide information about interesting topics, quantity of articles and time period to the bot and<br> 
