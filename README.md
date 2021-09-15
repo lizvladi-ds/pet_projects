@@ -7,6 +7,17 @@ The logic is the following: we start with some actors pair. Get top N last movie
 if the second actor from the pair is in the obtained actors list. We also save movies checked and compare them. 
 Moreover, we do our BFS-based search from both sides and check movies in batches. 
 
+Movie distance graph example:
+<br> <img src="imdb/graph.JPG" alt="drawing" width="700" height="600"/> <br>
+
+## NYT telegram bot
+One can provide information about interesting topics, quantity of articles and time period to the bot and<br> 
+New York Times articles' summaries based on these preferences will be returned.
+
+Bot example:
+ 
+<br><img src="nyt/pics/720p.gif" alt="drawing"/> <br>
+
 ## UCI
 Aim of this project is to create full classical ML pipeline for UCI highly imbalanced dataset.
 In this project, we work with the dataset based on the census data extracted from the 1994 and 1995 current population surveys conducted 
@@ -14,8 +25,6 @@ by the U.S. Census Bureau. Our goal is to predict level of income of a person: "
 
 The description of the data is available [here.](https://archive.ics.uci.edu/ml/datasets/Census-Income+%28KDD%29)
 
-## Statistics
-The aim of this project is to apply different hypothesis testing criterion which serves best data and a particular purpose.
 
 
 
